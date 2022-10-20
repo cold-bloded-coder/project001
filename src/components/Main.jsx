@@ -2,6 +2,7 @@ import React from 'react'
 import Header from './Header'
 import {Routes,Route} from "react-router-dom"
 import Home from './Home'
+import Attendence from './Attendence'
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
         <Header/>
         <Routes>
             <Route path='/' element={<Home/>}/>
+            <Route path='/attendence' element={<Attendence/>}/>
         </Routes>
     </div>
   )
