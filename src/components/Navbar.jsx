@@ -57,7 +57,7 @@ function Navbar() {
             </div>
 
             {/* menu trail */}
-            <ul className={`flex flex-col items-center px-primaryMob sticky w-full h-[100vh] ease-in-out duration-500 bg-bgPrimary md:translate-x-0 ${Nav?'translate-x-[0%]':'translate-x-[-100%]'}`}>
+            <ul className={`flex flex-col items-center px-primaryMob sticky w-full h-[100vh] ease-in-out duration-500 bg-bgPrimary md:translate-x-0 ${Nav?'translate-x-[0%]':'translate-x-[-100%]'} bg-gray`}>
                     {
                         Links.map((link)=>{
                           return(

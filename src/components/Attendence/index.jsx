@@ -3,6 +3,7 @@ import { Card } from "./Card";
 import { WeekAttendence } from "./WeekAttendence";
 import MediaQuery from "react-responsive";
 import Mobile from "./Mobile";
+import Navbar from "../Navbar";
 
 const Attendence = () => {
   return (
@@ -11,10 +12,11 @@ const Attendence = () => {
         <MediaQuery maxWidth={425}>
           <Mobile></Mobile>
         </MediaQuery>
-        <MediaQuery minWidth={769}>
-          {/* <Card></Card>
-        <WeekAttendence></WeekAttendence> */}
-        </MediaQuery>
+        <div className="flex">
+
+            <Card></Card>
+            <WeekAttendence></WeekAttendence>
+        </div>
       </div>
     </div>
   );

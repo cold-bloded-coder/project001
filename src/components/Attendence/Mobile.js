@@ -5,10 +5,11 @@ import Attendence from './MobileComponents/Attendence'
 
 const Mobile = () => {
   return (
-    <div className="font-pop w-[100vw] h-[100vh] bg-[#fbfbfb] rounded-2xl">
-      <Header title="Attendence"></Header>
-      <Calendar></Calendar>
+    <div className="font-pop rounded-2xl">
+      Hello
+      {/* <Header title="Attendence"></Header>
       <Attendence att={{abs: 12, prs: 15}}></Attendence>
+      <Calendar></Calendar> */}
       
     </div>
   )

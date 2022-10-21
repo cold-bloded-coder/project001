@@ -5,7 +5,7 @@ import Event from "./Event";
 
 const Calendar = () => {
   return (
-    <div>
+    <div className="relative top-1 z-[-1]">
       <Head date={{ month: "December", year: 2022 }}></Head>
       <div className="w-full h-8"></div>
       <Body></Body>
