@@ -1,12 +1,23 @@
-import React from 'react'
-import Circulars from './Circulars'
+import React from "react";
 
-function Home() {
+import Header from "./Header";
+import Card from "./Card";
+import Attend from "./Attend";
+import Calendar from "./Calendar";
+
+const Attendence = () => {
   return (
     <div>
-        <Circulars/>
-    </div>
-  )
-}
+      <Header title="Attendence" />
+      <div className="md:flex ">
+        <Card />
+        <Attend />
+        <Calendar />
 
-export default Home
+        {/* <Attend att={{abs: 21}}/> */}
+      </div>
+    </div>
+  );
+};
+
+export default Attendence;
